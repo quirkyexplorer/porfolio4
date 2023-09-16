@@ -1,28 +1,29 @@
 
+import './styles.scss';
 import { Table } from 'react-bootstrap'
+import Project from './components/Project';
 
 function App() {
   return (
-    <div className="container">
-     <h1>Hi my name is Daniel Segura, software Developer</h1>
+    <div className='container'>
+     <h1 id='hero'>Hi my name is 
+        <br />
+        Daniel Segura
+        <br />
+     Software Developer
+     </h1>
 
-     <h2>about me</h2>
+     <h2 id='about'>about me</h2>
 
 
-     <h2>my projects</h2>
+     <h2 id='projects'>my projects</h2>
 
         <Table striped>
-            <p>
-             project 1
-            </p>
-            <p>
-             project 2
-            </p>
-
+            <Project/>
         </Table>
 
 
-     <h2>work with me</h2>
+     <h2 id='contact'>contact me</h2>
     </div>
   );
 }

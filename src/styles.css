@@ -1,1 +1,53 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#hero {
+  background-color: #333333;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-image: linear-gradient(limegreen, transparent), linear-gradient(90deg, skyblue, transparent), linear-gradient(-90deg, coral, transparent);
+  background-blend-mode: screen;
+  background-color: #333333;
+  font-weight: 400;
+  color: #333333;
+  padding: 0rem 26.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+#hero .hero-title {
+  margin-top: 10vh;
+}
+
+#about {
+  background-color: #333333;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-image: linear-gradient(coral, transparent), linear-gradient(90deg, skyblue, transparent), linear-gradient(-90deg, limegreen, transparent);
+  background-blend-mode: screen;
+  background-color: #333333;
+  font-weight: 400;
+  color: #333333;
+  padding: 0rem 26.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}/*# sourceMappingURL=styles.css.map */

@@ -2,21 +2,13 @@
 import './styles.scss';
 import { Table } from 'react-bootstrap'
 import Project from './components/Project';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className='container'>
-     <div id='hero'>
-       <h1 className='hero-title load-hidden'> 
-            Hi my name is 
-            <br />
-          <span className='text-color-main'>  Daniel Segura</span> 
-            <br />
-            Software Developer
-        </h1> 
-
-     </div>
-
+        <Hero/>
+        
      <h2 id='about'>about me</h2>
 
 

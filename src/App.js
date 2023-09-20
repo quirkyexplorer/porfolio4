@@ -6,12 +6,16 @@ import Project from './components/Project';
 function App() {
   return (
     <div className='container'>
-     <h1 id='hero'>Hi my name is 
-        <br />
-        Daniel Segura
-        <br />
-     Software Developer
-     </h1>
+     <div id='hero'>
+       <h1 className='hero-title load-hidden'> 
+            Hi my name is 
+            <br />
+          <span className='text-color-main'>  Daniel Segura</span> 
+            <br />
+            Software Developer
+        </h1> 
+
+     </div>
 
      <h2 id='about'>about me</h2>
 

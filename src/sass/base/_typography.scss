@@ -4,3 +4,17 @@
 .dark-blue-text {
     color: $dark-blue-text !important;
   }
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-size: $default-font-size;
+}
+
+.text-color-main {    
+    
+    -webkit-text-fill-color: $secondary-color;
+    text-decoration-color: $secondary-color;
+    &:hover {
+      transform: translateX(2px);
+    }
+  }

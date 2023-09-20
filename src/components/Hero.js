@@ -9,8 +9,9 @@ export default function Hero() {
             <h1 className='hero-title'> 
                 Hi my name is 
                 <br />
-            <span className='text-color-main'>  Daniel Segura</span> 
-                <br />
+                <Fade delay={700}>
+                    <span className='text-color-main'>  Daniel Segura</span>     
+                </Fade>
                 Jr. Software Developer
             </h1> 
 

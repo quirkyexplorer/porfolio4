@@ -1,6 +1,13 @@
 
+body{ 
+    margin:0;
+}
 @import "./sass/abstracts/variables";
+@import "./sass/abstracts/helpers";
+
 @import "./sass/base/base";
 @import "./sass/base/typography";
+
 @import "./sass/sections/hero";
 @import "./sass/sections/about";
+@import "./sass/sections/projects";

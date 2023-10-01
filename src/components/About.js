@@ -4,29 +4,48 @@ import { Fade } from "react-awesome-reveal";
 
 export default function About() {
     return (
-        <div id='about-content'>
-            <Fade delay={900}>
-                <h1 className='about'>About me</h1>     
-            </Fade>
-            <div className='image-container'>
-                <div>
-                    <img 
-                    className='image'
-                    height="auto"
-                    width="300px"
-                    alt="man in a suit"
-                    src={profile}
-                    />
+
+        <section id='about'>
+            <div className='container'>
+                <Fade delay={900}>
+                    <h1 className='section-title'>About me</h1>     
+                </Fade>
+                <div className='row about-wrapper'>
+                  <div className='col-md-6 col-sm-12'>
+                    <div className='about-wrapper__image load-hidden'>
+                        <img 
+                            className='image'
+                            height="auto"
+                            width="300px"
+                            alt="man in a suit"
+                            src={profile}
+                            />
+                    </div>
+                  </div>
+                  <div className='col-md-6 col-sm-12'>
+                    <div className='about-wrapper__info'>
+                      <p className='about-wrapper__info-text'>
+                        This is where you can describe about yourself. The more you
+                        describe about yourself, the more chances you can!
+                      </p>
+                      <p className='about-wrapper__info-text'>
+                      Extra Information about you! like hobbies and your goals.
+                      </p>
+                      <span className='d-flex mt-3'>
+                        <a 
+                          rel='noreferrer'
+                          target='_blank'
+                          className='cta-btn cta-btn--resume'
+                          href='assets/resume.pdf'
+                        >
+                        View Resume
+                        </a>
+                      </span>
+                    </div>
+                  </div>
                 </div>
-                <div className="text-description">
-                Currently working as a Jr. developer in TechJoy, I have experience with react, javascript, python, node and mongoDB.
-                <br/>
-                <br/>
-                In my freetime you can catch me reading about tech stacks, and dancing salsa. 
-                </div>
-                
             </div>
-        </div>
+        </section>
         
     );
 }

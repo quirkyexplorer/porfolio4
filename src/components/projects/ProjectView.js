@@ -36,7 +36,7 @@ import project from "../../assets/project.jpg";
             <div className='col-lg-8 col-sm-12'>
               <div className='project-wrapper__image load-hidden'>
                 <a rel='noreferrer' href='#!' target='_blank'>
-                <img src={project} />
+                <img alt='project' src={project} />
                 </a>
               </div>
             </div>

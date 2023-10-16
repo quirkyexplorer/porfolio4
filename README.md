@@ -1,3 +1,10 @@
+This is my portfolio project. 
+It is using Javascript and React, as well as Sass and bootstrap for the css and styling. 
+it simply shows some of the projects I have worked on as well as a way for contacting me. 
+I used https://github.com/cobiwave/simplefolio  as an inspiration but I wanted to used react and did different styling. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

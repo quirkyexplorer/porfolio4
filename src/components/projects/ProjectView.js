@@ -1,25 +1,25 @@
 import project from "../../assets/project.jpg";
 
- export default function ProjectView() {
 
+
+
+ export default function ProjectView({ object }) {
+    const { name, linkSource, linkLive, description, image } = object;
     return (
         <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
-                <h3 className='project-wrapper__text-title'>Project Title</h3>
+                <h3 className='project-wrapper__text-title'>{object.name}</h3>
                 <div>
                     <p className="mb-4">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Excepturi neque, ipsa animi maiores repellendus distinctio aperiam
-                        earum dolor voluptatum consequatur blanditiis inventore debitis
-                        fuga numquam voluptate ex architecto itaque molestiae.
+                        {object.description}
                     </p>
                 </div>
                 <a
                   rel='noreferrer'
                   target='_blank'
                   className='cta-btn cta-btn--hero'
-                  href='#!'
+                  href={linkLive}
                 >
                   See Live
                 </a>
@@ -27,7 +27,7 @@ import project from "../../assets/project.jpg";
                   rel='noreferrer'
                   target='_blank'
                   className='cta-btn cta-btn--hero'
-                  href='#!'
+                  href={linkSource}
                 >
                   Source Code
                 </a>
@@ -35,8 +35,8 @@ import project from "../../assets/project.jpg";
             </div>
             <div className='col-lg-8 col-sm-12'>
               <div className='project-wrapper__image load-hidden'>
-                <a rel='noreferrer' href='#!' target='_blank'>
-                <img alt='project' src={project} />
+                <a rel='noreferrer' href={linkLive} target='_blank'>
+                <img alt='project' src={image} />
                 </a>
               </div>
             </div>

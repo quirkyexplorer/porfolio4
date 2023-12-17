@@ -7,7 +7,7 @@
 
   p,
   a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Segoe UI", sans-serif;
     font-size: $default-font-size;
   }
   
@@ -29,13 +29,10 @@
     font-size: $big-font-size;
     font-weight: bold;
     text-transform: uppercase;
-  
-   
 }
   
 
 .text-color-main {    
-    
     -webkit-text-fill-color: $secondary-color;
     text-decoration-color: $secondary-color;
     &:hover {

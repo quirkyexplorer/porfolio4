@@ -34,7 +34,7 @@ import project from "../../assets/project.jpg";
               </div>
             </div>
             <div className='col-lg-8 col-sm-12'>
-              <div className='project-wrapper__image load-hidden'>
+              <div className='project-wrapper__image'>
                 <a rel='noreferrer' href={linkLive} target='_blank'>
                 <img alt='project' src={image} />
                 </a>

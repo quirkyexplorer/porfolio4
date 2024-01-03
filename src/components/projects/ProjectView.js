@@ -1,7 +1,3 @@
-import project from "../../assets/project.jpg";
-
-
-
 
  export default function ProjectView({ object }) {
     const { name, linkSource, linkLive, description, image } = object;
@@ -9,10 +5,10 @@ import project from "../../assets/project.jpg";
         <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
-                <h3 className='project-wrapper__text-title'>{object.name}</h3>
+                <h3 className='project-wrapper__text-title'>{name}</h3>
                 <div>
                     <p className="mb-4">
-                        {object.description}
+                        {description}
                     </p>
                 </div>
                 <a

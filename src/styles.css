@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 body {
   margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.mb-8 {
+  margin-bottom: 8rem !important;
 }
 
 html {
@@ -13,12 +18,33 @@ body {
 }
 
 .dark-blue-text {
-  color: #272341 !important;
+  color: #282442 !important;
 }
 
+p,
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Segoe UI", sans-serif;
   font-size: 1.6rem;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .text-color-main {
@@ -53,7 +79,7 @@ a {
 }
 #hero .hero-title {
   margin-top: 10vh;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   margin-bottom: 3.2rem;
   text-align: left;
@@ -61,28 +87,25 @@ a {
 
 #about {
   background-color: #333333;
-  background-image: linear-gradient(135deg, 2aab0 0%, #22ae97 100%);
+  background-image: linear-gradient(135deg, #02aab0 0%, #22ae97 100%);
   color: #333333;
   height: 100%;
   border-top: 0px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 10%;
+  -webkit-clip-path: polygon(100% 0, 90% 74%, 0 100%, 0 55%, 25% 0);
+          clip-path: polygon(100% 0, 90% 74%, 0 100%, 0 55%, 25% 0);
+  background-image: linear-gradient(coral, transparent), linear-gradient(90deg, skyblue, transparent), linear-gradient(-90deg, limegreen, transparent);
+  background-blend-mode: screen;
+  padding-bottom: 20%;
 }
 #about .about-wrapper__image {
   display: flex;
   height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-#about .about-wrapper__info {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  flex-direction: column;
+  align-items: left;
+  justify-content: right;
 }
 #about .about-wrapper__info-text {
   text-align: left;
+  font-weight: bold;
 }
 #about .about-wrapper__info-text--important {
   background: #21aa93;
@@ -94,8 +117,8 @@ a {
 }
 
 #projects {
-  background-color: #22ae97;
-  color: #272341;
+  background-color: rgb(255, 255, 255);
+  color: #282442;
   margin-top: -10rem;
   padding-top: 5rem;
 }
@@ -117,17 +140,28 @@ a {
   color: #22ae97;
 }
 #projects .project-wrapper__image {
-  width: 90%;
-  margin: 0 auto;
-}
-#projects .project-wrapper__image .thumbnail {
-  border: none;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transition: all 0.2s ease-out;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
-  transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s box-shadow;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.mb-8 {
-  margin-bottom: 8rem !important;
+img {
+  width: 50%;
+}
+
+#contactWrapper {
+  background-color: rgb(232, 222, 147);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#contact {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.svgContainer {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
 }/*# sourceMappingURL=styles.css.map */

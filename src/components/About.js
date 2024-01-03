@@ -1,6 +1,6 @@
 import profile from '../assets/profile.jpg';
 import { Fade } from "react-awesome-reveal";
-import ResumeV3 from '../assets/ResumeV3.pdf';
+import ResumeV3 from '../assets/ResumeV3.8.pdf';
 
 export default function About() {
     return (

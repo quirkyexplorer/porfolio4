@@ -1,7 +1,7 @@
 
 body{ 
     margin:0;
-    background-color: rgba(34,174,151, 0.5);
+    background-color: rgb(255, 255, 255);
 }
 //rgb(34,174,151)
 // rgba(156, 223, 214, 0.5);
@@ -14,3 +14,4 @@ body{
 @import "./sass/sections/hero";
 @import "./sass/sections/about";
 @import "./sass/sections/projects";
+@import "./sass/sections/contact";

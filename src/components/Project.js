@@ -31,28 +31,6 @@ const projectDb = [
 export default function Project() {
 
 
-  const clipPathStyle = {
-    height: '100px',
-    width: '100px',
-    backgroundColor: 'red',
-    // clipPath: 'polygon(100% 0, 90% 74%, 0 100%, 0 55%, 25% 0)',
-    // backgroundImage:
-    // `linear-gradient(
-    //   coral,
-    //   transparent
-    // ),
-    // linear-gradient(
-    //   90deg,
-    //   skyblue,
-    //   transparent
-    // ),
-    // linear-gradient(
-    //   -90deg,
-    //   limegreen,
-    //   transparent
-    // )`,
-  } 
-
   return (
     <section id="projects">
       

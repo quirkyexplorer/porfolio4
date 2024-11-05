@@ -1,9 +1,22 @@
 
 import ProjectView from "./projects/ProjectView";
 import snake from "../assets/snake.png";
-import Phonebook from "../assets/Phonebook.png"
+import Phonebook from "../assets/Phonebook.png";
+import clothingSite from "../assets/clothingSite.png";
 
 const projectDb = [
+
+      {
+        name: '2sure Clothing site',
+        linkSource: 'https://github.com/quirkyexplorer/shopSiteNext',
+        linkLive: 'https://2sureclothing.vercel.app/',
+        description: `I created my sister a website for her to display her clothing produtcs, 
+        here I used postgresql for the dabase to store the products information and links to images, I used image kit for 
+        hosting the images as well as uploading them from an admin side. I'm still working out how to have emails sent for contact
+        as well as updating the design with a new color palette, so it is a work in progress. `,
+        image: clothingSite,
+    },
+    
     {   
         name: 'Snake',
         linkSource: 'https://github.com/quirkyexplorer/SnakeGame',
@@ -25,7 +38,9 @@ const projectDb = [
         For the front-end I used react.js as the javascript library, Axios for the API requests 
         and minimal css for the styling. `,
         image: Phonebook,
-    }
+    },
+
+    
  ]
 
 export default function Project() {
